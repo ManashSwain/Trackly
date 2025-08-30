@@ -5,21 +5,20 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import Rootlayout from './Layouts/Rootlayout/Rootlayout';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <div>
-        <h1>Hello World</h1>
-        <Link to="about">About Us</Link>
-      </div>
-    ),
+    element: <Rootlayout/>,
+    children : [
+      {
+        
+
+      },
+    ]
   },
-  {
-    path: "about",
-    element: <div className='text-3xl font-bold underline'>About</div>,
-  },
+
 ]);
 
 function App() {
