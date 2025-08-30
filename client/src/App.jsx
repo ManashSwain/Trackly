@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: "about",
-    element: <div>About</div>,
+    element: <div className='text-3xl font-bold underline'>About</div>,
   },
 ]);
 
