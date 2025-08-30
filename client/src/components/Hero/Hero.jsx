@@ -8,9 +8,9 @@ const Hero = () => {
         <h2>Hello! Mike</h2>
         <p>Tuesday 25 March 2025</p>
     </div>
-    <div>
+    <div className='m-5'>
       {/* Total Tasks  */}
-      <div>
+      <div >
         <ul>
             <li className='marker:text-blue-700'>
                 <span>18</span>
@@ -21,7 +21,7 @@ const Hero = () => {
        {/* Pending Tasks  */}
       <div>
         <ul>
-            <li className='marker:text-purple-700-700'>
+            <li className='marker:text-purple-700'>
                 <span>11</span>
                 <span>Pending tasks</span>
             </li>
