@@ -6,6 +6,7 @@ import {
   Link,
 } from "react-router-dom";
 import Rootlayout from './Layouts/Rootlayout/Rootlayout';
+import Dashboard from './Pages/Dashboard/Dashboard';
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,8 @@ const router = createBrowserRouter([
     element: <Rootlayout/>,
     children : [
       {
-        
-
+        path: "dashboard",
+       element: <Dashboard/>,
       },
     ]
   },
