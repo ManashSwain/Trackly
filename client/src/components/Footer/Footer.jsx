@@ -5,7 +5,7 @@ const Footer = () => {
     <>
 
 
-<footer className="bg-blue-700  shadow-sm absolute bottom-0 w-full ">
+<footer className="bg-blue-700  shadow-sm fixed bottom-0 w-full ">
     <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <span className="text-sm text-white sm:text-center">© 2023 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.
     </span>
