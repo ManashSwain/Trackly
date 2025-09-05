@@ -10,6 +10,7 @@ import Createtask from './Pages/Createtask/Createtask';
 import Analytics from './Pages/Analytics/Analytics';
 import Reports from './Pages/Reports/Reports';
 import Profile from './Pages/Profile/Profile';
+import Notfound from './components/Notfound/Notfound';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
         path: "profile",
         element: <Profile/>,
       },
+      {
+        path: "*",
+        element: <Notfound/>
+      }
     ]
   },
 
