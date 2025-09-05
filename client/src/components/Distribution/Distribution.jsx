@@ -5,6 +5,7 @@ import { PieChart } from '@mui/x-charts/PieChart';
 const Distribution = () => {
   return (
     <>
+    <section>
     <PieChart
       series={[
         {
@@ -18,6 +19,7 @@ const Distribution = () => {
       width={200}
       height={200}
     />
+    </section>
     </>
   )
 }
