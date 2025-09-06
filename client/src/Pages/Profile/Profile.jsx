@@ -1,9 +1,12 @@
 import React from 'react'
+import Profiledetails from '../../components/Profiledetails/Profiledetails'
 
 const Profile = () => {
   return (
     <>
-    <h1>Profile</h1>
+    <section className='inline-block p-5'>
+    <Profiledetails/>
+    </section>
     </>
   )
 }
