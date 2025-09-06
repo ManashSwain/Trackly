@@ -137,7 +137,6 @@ const Createindividualtask = () => {
             >
               Add
             </button>
-            
           </div>
           <div >
            <div class="mt-2 flex gap-x-3 bg-gray-200 p-2 rounded  items-center justify-between ">
@@ -147,6 +146,26 @@ const Createindividualtask = () => {
           </div>
         </div>
 
+                  <div class="col-span-full">
+          <label for="street-address" class="block text-sm/6 font-medium text-gray-900">Add Attachments</label>
+          <div class="mt-2 flex gap-x-3">
+            <input id="street-address" type="text" name="street-address" autocomplete="street-address" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+            <input id="street-address" type="text" name="street-address" autocomplete="street-address" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+            
+             <button
+              type="submit"
+              className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              Add
+            </button>
+          </div>
+          <div >
+           <div class="mt-2 flex gap-x-3 bg-gray-200 p-2 rounded  items-center justify-between ">
+             <p className="text-gray-600">Something new</p>
+             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-trash-icon lucide-trash text-red-600 hover:cursor-pointer"><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/><path d="M3 6h18"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+           </div>
+          </div>
+        </div>
               </div>
             </div>
           </div>
