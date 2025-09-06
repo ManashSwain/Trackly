@@ -127,21 +127,6 @@ const Createindividualtask = () => {
                     />
                   </div>
                 </div>
-                <div className="sm:col-span-2 sm:col-start-1">
-                  <label htmlFor="city" className="block text-sm/6 font-medium text-gray-900">
-                    City
-                  </label>
-                  <div className="mt-2">
-                    <input
-                      id="city"
-                      type="text"
-                      name="city"
-                      autoComplete="address-level2"
-                      className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
-                    />
-                  </div>  
-                </div>
-
                   <div class="col-span-full">
           <label for="street-address" class="block text-sm/6 font-medium text-gray-900">Todo checklist</label>
           <div class="mt-2 flex gap-x-3">
@@ -152,6 +137,13 @@ const Createindividualtask = () => {
             >
               Add
             </button>
+            
+          </div>
+          <div >
+           <div class="mt-2 flex gap-x-3 bg-gray-200 p-2 rounded  items-center justify-between ">
+             <p className="text-gray-600">Something new</p>
+             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-trash-icon lucide-trash text-red-600 hover:cursor-pointer"><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/><path d="M3 6h18"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+           </div>
           </div>
         </div>
 
