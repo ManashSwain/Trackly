@@ -4,9 +4,8 @@ import Createindividualtask from '../../components/CreateIndividualtask/Createin
 const Createtask = () => {
   return (
   <>
-  <h1>Create Task</h1>
   <section className='inline-block p-5'>
-    <Createindividualtask/>
+  <Createindividualtask/>
   </section>
   </>
   )
