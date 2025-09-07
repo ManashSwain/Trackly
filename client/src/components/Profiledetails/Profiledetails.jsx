@@ -4,7 +4,6 @@ const Profiledetails = () => {
   return (
    <>
    <form>
- 
     <div className="border-gray-900/10 pb-12">
       <h2 className="text-base/7 font-semibold text-gray-900">Profile Details</h2>
        <p className="mt-1 text-sm/6 text-gray-600">This information will be visible to others, so please be mindful of what you share.</p>
