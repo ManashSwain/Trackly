@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
  <>
-  <section className='flex flex-col w-[80vw] justify-between bg-gray-100 p-6 rounded-lg m-5'>
+  <section className='flex flex-col w-[80vw] justify-between bg-white p-6 rounded-lg m-5'>
     <div>
         <h2 className='text-black text-3xl font-bold'>Hello! Mike</h2>
         <p className='text-gray-500'>Tuesday 25 March 2025</p>
